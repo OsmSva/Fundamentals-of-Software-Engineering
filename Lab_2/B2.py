@@ -9,7 +9,7 @@ else:
     with open(input_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    print(f"{"Time":<12}{"WC temp":<12}{"WC Effect":<12}")
+    print(f"{"Time":<10}{"WC temp":<10}{"WC Effect":<10}")
     print("-" * 30) 
     TWCAverage = 0.0
     for line in lines[2:]:
