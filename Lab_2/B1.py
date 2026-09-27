@@ -24,7 +24,9 @@ else:
 
     print("Marchenko Sviatozar")
     print("Simple Map Distance Computations")
+    print()
     print(f"Map Scale Factor: {scale:.2f} miles per inch")
+    print()
     print("     Map     Mileage")
     print("     Measure Distance")
     print("=========================================================================")
