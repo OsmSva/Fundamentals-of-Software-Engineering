@@ -6,7 +6,7 @@ input_file = input("Введите имя входного файла: ")
 if not os.path.exists(input_file):
     print(f"Файл {input_file} не найден в папке с программой!")
 else:
-    with open(input_filename, "r", encoding="utf-8") as f:
+    with open(input_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     print(f"{"Time":<20}{"WC temp":<25}{"WC Effect":<30}")
