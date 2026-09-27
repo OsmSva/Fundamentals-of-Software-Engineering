@@ -22,7 +22,7 @@ else:
             legs_miles.append(float(line))
             total_distance += math.ceil(float(line) * 10.0 * scale) / 10
 
-    print("Osmansliy Svatofor")
+    print("Marchenko Sviatozar")
     print("Simple Map Distance Computations")
     print(f"Map Scale Factor: {scale:.2f} miles per inch")
     print("     Map     Mileage")
